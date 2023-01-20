@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 20px;
+    height: 4.5rem;
+    text-transform: uppercase;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.header .menu .list{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+}
+
+#products{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+#products .product{
+    width: 20%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+}
+
+#form{
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin: 20px;
+}
+
+#form .form-group{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+
+#form .form-group label{
+    margin-bottom: 5px;
+}
+
+#form .form-group input{
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#form button{
+    padding: 10px;
+    border: 1px solid #ccc;
+    background: #ccc;
+    cursor: pointer;
+}
